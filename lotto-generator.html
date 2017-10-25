@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- 간단 로또 번호 생성기 17. 10. 25 -->
 <html>
 <head>
   <title>로또 번호 생성기</title>
@@ -19,10 +20,11 @@
   <script>
   (function() {
     document.getElementById('btnGenerate').onclick = function() {
-    	var numbers = generate();
-    	document.getElementById('inputGenerated').value = numbers.join(', ');
+      var numbers = generate();
+      document.getElementById('inputGenerated').value = numbers.join(', ');
     }
   })();
   </script>
+  <!-- 스크립트 끝 -->
 </body>
 </html>
